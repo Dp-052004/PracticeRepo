@@ -12,9 +12,9 @@ public class Forecast {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the initial value");
         initialValue=sc.nextDouble();
-        System.out.println("Enter the initial value");
+        System.out.println("Enter the rate of interest");
         rate=sc.nextDouble();
-        System.out.println("Enter the initial value");
+        System.out.println("Enter the time in years");
         time=sc.nextInt();
         double finalValue=calculate(initialValue,rate,time);
         System.out.printf("Future Value after %d years: Rs %.2f\n", time, finalValue);
